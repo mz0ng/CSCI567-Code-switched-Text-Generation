@@ -81,7 +81,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
 
 ### create new model instance
-model = TransformerModel(ntoken=1682, ninp=1536, nhead=12, nhid=200, nlayers=8, dropout=0.5).to(device)
+model = TransformerModel(ntoken=1536, ninp=1536, nhead=12, nhid=200, nlayers=8, dropout=0.5).to(device)
 
 ### retrieve saved model for further use
 # with open('model.pt', 'rb') as f:
