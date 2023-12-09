@@ -9,3 +9,4 @@
 #### model.py: Transformer model with training process
 #### trigram.py: Trigram model with KneserNey Smoothing, to be used to evaluate quality of code-switched data
 #### GBS.py: Grid Beam Search, operating on decoder's output to force generation of code-switched data
+#### transformer_.py: Transformer based machine translation model (non-functional due to error while trianing)
