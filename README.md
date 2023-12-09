@@ -3,3 +3,4 @@
 #### SEAME.csv: The Mandarin-English Code-Switching in South-East Asia (SEAME) dataset, mix of code-switched data and monolingual data
 #### MONO.csv: Monolingual sentences from the SEAME dataset, collection of both English and Mandarin instances
 #### CS_train.csv: 50K code-switched data. First column: original data entry; Second column: English translation; Third column: Mandarin translation
+#### mBert_evaluation_for_future_work.ipynb : Code for performing cosine similarity analysis on the machine generated CS text against the reference text from the SEAME Corpus 
